@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+	<TemplateData>
+		<DefaultName>Repository Template.cs</DefaultName>
+		<Name>Repository Template</Name>
+		<Description>Creates Repository</Description>
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>15</SortOrder>
+		<Icon>../__TemplateIcon.png</Icon>
+		<PreviewImage>../__PreviewImage.png</PreviewImage>
+		<TemplateGroupID>ME Templates</TemplateGroupID>
+	</TemplateData>
+	<TemplateContent>
+		<References />
+		<ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">ItemRepository.cs</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
