@@ -1,6 +1,6 @@
 <h1>N-Tier Architecture Template</h1>
 
-<p>Bu proje, .NET Core N-Tier mimarisi ile çalışan projeler için gerekli olan 4 adet Item Template içeren bir Visual Studio Extension (VSIX) sağlamaktadır. Bu extension, projelerinizde kullanabileceğiniz <code>Entity</code>, <code>Dto</code>, <code>Repository</code>, ve <code>ServiceHelper</code> şablonlarını içerir.</p>
+<p>Bu proje, N-Tier Architecture ile çalışan projeler için gerekli olan 4 adet Item Template içeren bir Visual Studio Extension (VSIX) sağlamaktadır. Bu extension, projelerinizde kullanabileceğiniz <code>Entity</code>, <code>Dto</code>, <code>Repository</code>, ve <code>ServiceHelper</code> şablonlarını içerir.</p>
 
 <h2>İçindekiler</h2>
 <ul>
