@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" ?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="ME.Template.8f4aa507-f509-4730-9842-a57847a0c7ec" Version="1.0.2" Language="en-US" Publisher="BugraME" />
+        <Identity Id="ME.Template.8f4aa507-f509-4730-9842-a57847a0c7ec" Version="1.0.3" Language="en-US" Publisher="BugraME" />
         <DisplayName>ME.Template</DisplayName>
-        <Description xml:space="preserve">ME Template</Description>
+        <Description xml:space="preserve">This extension provides 4 essential Item Templates designed for projects utilizing N-Tier Architecture. It includes templates for Entity, Dto, Repository, and ServiceHelper, all ready to be seamlessly integrated into your projects.</Description>
+        <MoreInfo>https://github.com/BugraME/ME.Template/</MoreInfo>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
+        <Tags>Template, Extension, NTier</Tags>
     </Metadata>
-    <Installation>
+    <Installation AllUsers="true">
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
