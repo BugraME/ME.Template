@@ -36,7 +36,6 @@
 </ol>
 <img src="https://bugrame.com/images/me_template.gif" alt="ME Template" />
 
-
 <h2 id="templates">Template'ler</h2>
 
 <h3 id="entity">Entity</h3>
@@ -56,8 +55,7 @@
 <h3 id="repository">Repository</h3>
 <p><code>Repository</code> şablonu veri erişim mantığını iş mantığından ayırır ve daha temiz bir mimari sağlar.</p>
 <h4>Örnek Kullanım:</h4>
-<pre><code>
-public class ProductRepository : BaseRepository&lt;Product&gt; {
+<pre><code>public class ProductRepository : BaseRepository&lt;Product&gt; {
     public ProductRepository() { }
 }</code></pre>
 
