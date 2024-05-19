@@ -18,7 +18,7 @@
 
 <h2 id="setup">Kurulum</h2>
 <ol>
-    <li><strong>VSIX Dosyasını İndir</strong>: <a href="https://github.com/kullaniciadi/projeadi/releases">VisualStudio Marketplace</a> sayfasından en son sürümü indirin.</li>
+    <li><strong>VSIX Dosyasını İndir</strong>: <a href="https://marketplace.visualstudio.com/items?itemName=BugraME.METemplate">VisualStudio Marketplace</a> sayfasından en son sürümü indirin.</li>
     <li><strong>Kurulum</strong>: İndirdiğiniz <code>.vsix</code> dosyasına çift tıklayın ve Visual Studio'ya yükleyin.</li>
     <li><strong>Visual Studio'yu Yeniden Başlatın</strong>: Değişikliklerin geçerli olması için Visual Studio'yu yeniden başlatın.</li>
 </ol>
