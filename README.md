@@ -36,7 +36,7 @@
 </ol>
 <img src="https://bugrame.com/images/me_template.gif" alt="ME Template" />
 
-<h2 id="templates">Template'ler</h2>
+<h2 id="templates">Şablonlar</h2>
 
 <h3 id="entity">Entity</h3>
 <p><code>Entity</code> şablonu genellikle veritabanı tablolarını temsil eder ve veri modelini tanımlar.</p>
@@ -53,7 +53,7 @@
 }</code></pre>
 
 <h3 id="repository">Repository</h3>
-<p><code>Repository</code> şablonu veri erişim mantığını iş mantığından ayırır ve daha temiz bir mimari sağlar.</p>
+<p><code>Repository</code> şablonu daha temiz bir mimari ve veri erişimini sağlar.</p>
 <h4>Örnek Kullanım:</h4>
 <pre><code>public class ProductRepository : BaseRepository&lt;Product&gt; {
     public ProductRepository() { }
@@ -61,7 +61,7 @@
 
 
 <h3 id="servicehelper">ServiceHelper</h3>
-<p><code>ServiceHelper</code> şablonu, servis katmanında kullanılan yardımcı sınıfları oluşturmak için kullanılır. İş mantığını içerir ve servisler arasında kod tekrarını önler.</p>
+<p><code>ServiceHelper</code> şablonu, servis katmanında kullanılan yardımcı sınıfları oluşturmak için kullanılır. Servisler arasında kod tekrarını önler ve hata kontrolü yapar.</p>
 <h4>Örnek Kullanım:</h4>
 <pre><code>public class ProductService : BaseService&lt;ProductRepository, ProductDto, Product&gt; {
     public ProductService() { }
