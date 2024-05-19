@@ -34,6 +34,8 @@
         </ul>
     </li>
 </ol>
+<img src="https://bugrame.com/images/me_template.gif" alt="ME Template" />
+
 
 <h2 id="templates">Template'ler</h2>
 
